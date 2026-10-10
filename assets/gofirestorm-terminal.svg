@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="490" viewBox="0 0 1080 490" role="img" aria-label="GoFirestorm terminal profile for daineball">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1018"/><stop offset="1" stop-color="#101923"/></linearGradient><linearGradient id="fire" x2="0" y2="1"><stop stop-color="#ffd16d"/><stop offset=".55" stop-color="#ff8d35"/><stop offset="1" stop-color="#e24a29"/></linearGradient></defs>
+<rect width="1080" height="490" rx="18" fill="url(#bg)"/>
+<rect x="1" y="1" width="1078" height="488" rx="17" fill="none" stroke="#2b3947"/>
+<rect x="1" y="1" width="1078" height="48" rx="17" fill="#151e29"/>
+<rect x="1" y="32" width="1078" height="17" fill="#151e29"/>
+<circle cx="29" cy="24" r="7" fill="#ff605c"/><circle cx="51" cy="24" r="7" fill="#ffbd44"/><circle cx="73" cy="24" r="7" fill="#00ca4e"/>
+<text x="540" y="30" fill="#92a2b3" font-family="monospace" font-size="14" text-anchor="middle">gofirestorm — profile@terminal</text>
+<text x="35" y="84" fill="#ff9e47" font-family="monospace" font-size="17" font-weight="bold">GOFIRESTORM // SYSTEM PROFILE</text>
+<text x="35" y="109" fill="#7893a6" font-family="monospace" font-size="12">AI COMPUTE · INFERENCE · TRAINING · ORCHESTRATION</text>
+<line x1="35" y1="126" x2="1045" y2="126" stroke="#2a3a48"/>
+<path d="M270 154 C230 210 292 236 253 293 C252 247 220 245 222 202 C182 266 201 315 238 348 C196 335 174 301 171 273 C146 352 205 409 272 411 C345 406 393 347 366 272 C363 305 342 334 307 348 C351 307 355 264 316 202 C318 244 286 246 289 292 C248 239 309 211 270 154Z" fill="url(#fire)" opacity=".95"/>
+<path d="M270 274 C251 313 235 333 249 365 C258 391 282 389 293 365 C306 335 289 309 270 274Z" fill="#111922"/>
+<text x="270" y="440" text-anchor="middle" fill="#ff9e47" font-family="monospace" font-size="18" font-weight="bold">GO // FIRESTORM</text>
+<line x1="480" y1="148" x2="480" y2="449" stroke="#2a3a48"/>
+<text x="510" y="171" fill="#e49c5d" font-family="monospace" font-size="15">Handle</text>
+<text x="760" y="171" fill="#dce6ef" font-family="monospace" font-size="15">@daineball</text>
+<text x="510" y="207" fill="#e49c5d" font-family="monospace" font-size="15">Primary stack</text>
+<text x="760" y="207" fill="#dce6ef" font-family="monospace" font-size="15">Go / Rust / C++</text>
+<text x="510" y="243" fill="#e49c5d" font-family="monospace" font-size="15">Compute</text>
+<text x="760" y="243" fill="#dce6ef" font-family="monospace" font-size="15">ROCm / GPU kernels</text>
+<text x="510" y="279" fill="#e49c5d" font-family="monospace" font-size="15">Orchestration</text>
+<text x="760" y="279" fill="#dce6ef" font-family="monospace" font-size="15">Kubernetes / PodBro</text>
+<text x="510" y="315" fill="#e49c5d" font-family="monospace" font-size="15">Inference</text>
+<text x="760" y="315" fill="#dce6ef" font-family="monospace" font-size="15">GoInferno / llama.cpp</text>
+<text x="510" y="351" fill="#e49c5d" font-family="monospace" font-size="15">Training</text>
+<text x="760" y="351" fill="#dce6ef" font-family="monospace" font-size="15">GoIgnite / GoSpark</text>
+<text x="510" y="387" fill="#e49c5d" font-family="monospace" font-size="15">Public repos</text>
+<text x="760" y="387" fill="#8ee1b1" font-family="monospace" font-size="15">—</text>
+<text x="510" y="415" fill="#e49c5d" font-family="monospace" font-size="15">Followers</text>
+<text x="760" y="415" fill="#8ee1b1" font-family="monospace" font-size="15">—</text>
+<line x1="510" y1="436" x2="1045" y2="436" stroke="#2a3a48"/>
+<text x="510" y="463" fill="#8ee1b1" font-family="monospace" font-size="13">$ building AI infrastructure from the kernels up_</text>
+</svg>
