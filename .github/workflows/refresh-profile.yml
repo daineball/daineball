@@ -1,0 +1,36 @@
+name: Refresh profile dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 8 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+      - name: Generate dashboard
+        env:
+          GITHUB_PROFILE_USER: daineball
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_profile.py
+      - name: Commit refreshed dashboard if changed
+        run: |
+          if git diff --quiet -- assets/gofirestorm-terminal.svg; then
+            echo "Dashboard unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/gofirestorm-terminal.svg
+          git commit -m "chore: refresh GoFirestorm profile dashboard"
+          git push
