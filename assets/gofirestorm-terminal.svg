@@ -28,7 +28,7 @@
 <text x="510" y="387" fill="#e49c5d" font-family="monospace" font-size="15">Public repos</text>
 <text x="760" y="387" fill="#8ee1b1" font-family="monospace" font-size="15">—</text>
 <text x="510" y="415" fill="#e49c5d" font-family="monospace" font-size="15">Followers</text>
-<text x="760" y="415" fill="#8ee1b1" font-family="monospace" font-size="15">—</text>
+<text x="760" y="415" fill="#8ee1b1" font-family="monospace" font-size="15">1</text>
 <line x1="510" y1="436" x2="1045" y2="436" stroke="#2a3a48"/>
 <text x="510" y="463" fill="#8ee1b1" font-family="monospace" font-size="13">$ building AI infrastructure from the kernels up_</text>
 </svg>
